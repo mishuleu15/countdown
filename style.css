@@ -86,3 +86,33 @@ img {
   text-align: center;
   font-size: 5rem;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  img {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .countdown-container h1 {
+    font-size: 1.15rem;
+    margin-top: 2rem;
+  }
+
+  .countdown-container p {
+    text-align: justify;
+    margin: 0 auto 20px auto;
+    width: 100%;
+  }
+
+  .count-container {
+    position: relative;
+    top: 0;
+    left: -30px;
+  }
+}
